@@ -208,13 +208,24 @@ public class MazeGameCreator {
         //call loadMaze() if argument is passed
         //else call createMaze()
         if (args.length == 1) {
-            filePath = args[0];
-            System.out.println("The argument passed is " + filePath);
-            try{
-                maze = mgc.loadMaze(filePath);
-            }catch (Exception e){
-                System.out.println("Please provide a valid file.\nExiting the system.");
-                System.exit(0);
+            if (args[0].equals("red")){
+                mgc = new RedMazeGameCreator();
+                maze = mgc.createMaze();
+            }
+            else if (args[0].equals("blue")){
+                mgc = new BlueMazeGameCreator();
+                maze = mgc.createMaze();
+            }
+            else{
+                filePath = args[0];
+                System.out.println("The argument passed is " + filePath);
+                try{
+                    maze = mgc.loadMaze(filePath);
+                }catch (Exception e){
+                    System.out.println("Please provide a valid file.\nExiting the system.");
+                    System.exit(0);
+                }
+
             }
 
         } else if(args.length == 2){
@@ -227,13 +238,15 @@ public class MazeGameCreator {
             switch  (mazeColor){
                 case "red":
                     mgc = new RedMazeGameCreator();
+                    maze = mgc.loadMaze(filePath);
                     break;
                 case "blue":
                     mgc = new BlueMazeGameCreator();
+                    maze = mgc.loadMaze(filePath);
                     break;
             }
 
-            maze = mgc.loadMaze(filePath);
+
         }
         else {
             maze = mgc.createMaze();

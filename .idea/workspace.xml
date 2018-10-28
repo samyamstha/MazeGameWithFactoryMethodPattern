@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88047699-e67f-493f-96c8-1b68e7579146" name="Default" comment="" />
+    <list default="true" id="88047699-e67f-493f-96c8-1b68e7579146" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/maze/BlueMazeGameCreator.java" afterPath="$PROJECT_DIR$/src/maze/BlueMazeGameCreator.java" />
+      <change beforePath="$PROJECT_DIR$/src/maze/MazeGameCreator.java" afterPath="$PROJECT_DIR$/src/maze/MazeGameCreator.java" />
+      <change beforePath="$PROJECT_DIR$/src/maze/RedMazeGameCreator.java" afterPath="$PROJECT_DIR$/src/maze/RedMazeGameCreator.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MazeGameCreator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/maze/MazeGameCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            <state relative-caret-position="661">
+              <caret line="244" column="50" lean-forward="false" selection-start-line="244" selection-start-column="50" selection-end-line="244" selection-end-column="50" />
               <folding>
                 <element signature="e#6908#6909#0" expanded="true" />
                 <element signature="e#6941#6942#0" expanded="true" />
@@ -29,290 +34,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedRoom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maze/RedRoom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedWall.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maze/RedWall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlueMazeGameCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maze/BlueMazeGameCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="144">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/maze" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/maze">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>maze</OriginalElement>
-              <nodes>
-                <node x="140.05715986394546" y="368.5">maze.Wall</node>
-                <node x="1161.7005442176871" y="705.5">maze.GreenRoom</node>
-                <node x="731.2838775510205" y="0.0">maze.EntryListener</node>
-                <node x="1372.7005442176871" y="969.0">maze.BlueMazeGameCreator</node>
-                <node x="729.4927210884355" y="1152.0">maze.MazeGameCreator</node>
-                <node x="591.4427210884353" y="925.0">maze.RedMazeGameCreator</node>
-                <node x="1284.9505442176871" y="123.5">maze.Direction</node>
-                <node x="674.7838775510205" y="101.0">maze.MapSite</node>
-                <node x="489.57554421768714" y="694.5">maze.RedWall</node>
-                <node x="1081.6446598639454" y="969.0">maze.ui</node>
-                <node x="336.14465986394544" y="946.5">maze.BrownDoor</node>
-                <node x="236.57554421768714" y="639.0">maze.Door</node>
-                <node x="0.0" y="694.5">maze.BlueWall</node>
-                <node x="0.0" y="1380.0">maze.MazeMoveListener</node>
-                <node x="702.7005442176871" y="694.0">maze.RedRoom</node>
-                <node x="780.2838775510205" y="313.0">maze.Room</node>
-                <node x="897.7005442176871" y="617.0">maze.Maze</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="maze.GreenRoom" target="maze.Room">
-                  <point x="42.0" y="-25.5" />
-                  <point x="1287.7005442176871" y="557.0" />
-                  <point x="997.962448979592" y="557.0" />
-                  <point x="85.17857142857144" y="92.0" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.RedWall">
-                  <point x="-47.25" y="-58.5" />
-                  <point x="670.1927210884353" y="875.0" />
-                  <point x="573.5755442176871" y="875.0" />
-                  <point x="0.0" y="36.5" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.BlueMazeGameCreator">
-                  <point x="264.79999999999984" y="-91.5" />
-                  <point x="1325.2927210884354" y="1122.0" />
-                  <point x="1419.7005442176871" y="1122.0" />
-                  <point x="-47.0" y="14.5" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.Maze">
-                  <point x="88.26666666666657" y="-91.5" />
-                  <point x="1148.7593877551021" y="1082.0" />
-                  <point x="1190.1446598639454" y="1082.0" />
-                  <point x="1190.1446598639454" y="895.0" />
-                  <point x="1117.300544217687" y="895.0" />
-                  <point x="97.59999999999994" y="114.0" />
-                </edge>
-                <edge source="maze.ui" target="maze.ui">
-                  <point x="-32.666666666666686" y="14.5" />
-                  <point x="1097.9779931972787" y="1018.0" />
-                  <point x="1061.6446598639454" y="1018.0" />
-                  <point x="1061.6446598639454" y="983.5" />
-                  <point x="-49.0" y="-0.0" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.Wall">
-                  <point x="-308.9333333333334" y="-91.5" />
-                  <point x="751.5593877551021" y="1132.0" />
-                  <point x="178.5" y="1132.0" />
-                  <point x="178.5" y="587.0" />
-                  <point x="190.45715986394544" y="587.0" />
-                  <point x="-33.60000000000002" y="36.5" />
-                </edge>
-                <edge source="maze.RedRoom" target="maze.Room">
-                  <point x="43.5" y="-37.0" />
-                  <point x="833.2005442176871" y="587.0" />
-                  <point x="884.3910204081634" y="587.0" />
-                  <point x="-28.39285714285711" y="92.0" />
-                </edge>
-                <edge source="maze.MapSite" target="maze.EntryListener">
-                  <point x="0.0" y="-81.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.Door">
-                  <point x="-220.66666666666674" y="-91.5" />
-                  <point x="839.8260544217687" y="1112.0" />
-                  <point x="263.6654931972787" y="1112.0" />
-                  <point x="263.6654931972787" y="905.0" />
-                  <point x="255.99221088435377" y="905.0" />
-                  <point x="-97.08333333333337" y="92.0" />
-                </edge>
-                <edge source="maze.Room" target="maze.MapSite">
-                  <point x="-106.0" y="-92.0" />
-                  <point x="-26.41666666666663" y="81.0" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.Direction">
-                  <point x="220.66666666666666" y="-91.5" />
-                  <point x="1281.1593877551022" y="1112.0" />
-                  <point x="1362.2005442176871" y="1112.0" />
-                  <point x="25.75" y="58.5" />
-                </edge>
-                <edge source="maze.ui" target="maze.Maze">
-                  <point x="0.0" y="-14.5" />
-                  <point x="1130.6446598639454" y="905.0" />
-                  <point x="1068.500544217687" y="905.0" />
-                  <point x="48.799999999999955" y="114.0" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.Maze">
-                  <point x="110.25" y="-58.5" />
-                  <point x="827.6927210884353" y="905.0" />
-                  <point x="970.9005442176872" y="905.0" />
-                  <point x="-48.799999999999955" y="114.0" />
-                </edge>
-                <edge source="maze.Door" target="maze.MapSite">
-                  <point x="-87.375" y="-92.0" />
-                  <point x="265.70054421768714" y="597.0" />
-                  <point x="318.55715986394546" y="597.0" />
-                  <point x="318.55715986394546" y="293.0" />
-                  <point x="754.0338775510205" y="293.0" />
-                  <point x="-79.25" y="81.0" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.Room">
-                  <point x="176.53333333333322" y="-91.5" />
-                  <point x="1237.0260544217685" y="1102.0" />
-                  <point x="1351.2005442176871" y="1102.0" />
-                  <point x="1351.2005442176871" y="537.0" />
-                  <point x="1035.8195918367346" y="537.0" />
-                  <point x="123.03571428571422" y="92.0" />
-                </edge>
-                <edge source="maze.Maze" target="maze.Room">
-                  <point x="0.0" y="-114.0" />
-                  <point x="1019.7005442176871" y="587.0" />
-                  <point x="941.1767346938776" y="587.0" />
-                  <point x="28.39285714285711" y="92.0" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.MazeGameCreator">
-                  <point x="63.0" y="58.5" />
-                  <point x="780.4427210884353" y="1082.0" />
-                  <point x="972.2260544217687" y="1082.0" />
-                  <point x="-88.26666666666677" y="-91.5" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.Wall">
-                  <point x="-15.75" y="-58.5" />
-                  <point x="701.6927210884353" y="865.0" />
-                  <point x="668.0755442176871" y="865.0" />
-                  <point x="668.0755442176871" y="517.0" />
-                  <point x="291.2571598639454" y="517.0" />
-                  <point x="67.19999999999993" y="36.5" />
-                </edge>
-                <edge source="maze.BlueMazeGameCreator" target="maze.MazeGameCreator">
-                  <point x="47.0" y="14.5" />
-                  <point x="1513.7005442176871" y="1132.0" />
-                  <point x="1369.4260544217686" y="1132.0" />
-                  <point x="308.9333333333333" y="-91.5" />
-                </edge>
-                <edge source="maze.BlueWall" target="maze.Wall">
-                  <point x="0.0" y="-36.5" />
-                  <point x="84.0" y="597.0" />
-                  <point x="156.8571598639454" y="597.0" />
-                  <point x="-67.2" y="36.5" />
-                </edge>
-                <edge source="maze.RedWall" target="maze.Wall">
-                  <point x="0.0" y="-36.5" />
-                  <point x="573.5755442176871" y="527.0" />
-                  <point x="257.6571598639455" y="527.0" />
-                  <point x="33.599999999999966" y="36.5" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.RedRoom">
-                  <point x="15.75" y="-58.5" />
-                  <point x="733.1927210884353" y="875.0" />
-                  <point x="789.7005442176871" y="875.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="maze.Room" target="maze.Direction">
-                  <point x="106.0" y="-92.0" />
-                  <point x="1018.7838775510205" y="293.0" />
-                  <point x="1310.7005442176871" y="293.0" />
-                  <point x="-25.75" y="58.5" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.Room">
-                  <point x="47.25" y="-58.5" />
-                  <point x="764.6927210884353" y="885.0" />
-                  <point x="887.2005442176871" y="885.0" />
-                  <point x="887.2005442176871" y="597.0" />
-                  <point x="903.3195918367348" y="597.0" />
-                  <point x="-9.464285714285666" y="92.0" />
-                </edge>
-                <edge source="maze.Door" target="maze.Room">
-                  <point x="87.375" y="-92.0" />
-                  <point x="440.45054421768714" y="557.0" />
-                  <point x="827.6053061224491" y="557.0" />
-                  <point x="-85.17857142857144" y="92.0" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.RedMazeGameCreator">
-                  <point x="-132.4000000000001" y="-91.5" />
-                  <point x="928.0927210884354" y="1092.0" />
-                  <point x="654.4427210884353" y="1092.0" />
-                  <point x="-63.0" y="58.5" />
-                </edge>
-                <edge source="maze.BrownDoor" target="maze.Door">
-                  <point x="0.0" y="-37.0" />
-                  <point x="420.14465986394544" y="905.0" />
-                  <point x="372.49221088435377" y="905.0" />
-                  <point x="19.41666666666663" y="92.0" />
-                </edge>
-                <edge source="maze.BrownDoor" target="maze.Room">
-                  <point x="56.0" y="-37.0" />
-                  <point x="476.14465986394544" y="905.0" />
-                  <point x="679.0755442176871" y="905.0" />
-                  <point x="679.0755442176871" y="567.0" />
-                  <point x="846.5338775510205" y="567.0" />
-                  <point x="-66.25" y="92.0" />
-                </edge>
-                <edge source="maze.MazeGameCreator" target="maze.ui">
-                  <point x="44.13333333333321" y="-91.5" />
-                  <point x="1104.6260544217687" y="1072.0" />
-                  <point x="1163.3113265306122" y="1072.0" />
-                  <point x="32.66666666666674" y="14.5" />
-                </edge>
-                <edge source="maze.RedMazeGameCreator" target="maze.Door">
-                  <point x="-110.25" y="-58.5" />
-                  <point x="607.1927210884353" y="895.0" />
-                  <point x="411.32554421768714" y="895.0" />
-                  <point x="58.25" y="92.0" />
-                </edge>
-                <edge source="maze.Wall" target="maze.MapSite">
-                  <point x="0.0" y="-36.5" />
-                  <point x="224.05715986394546" y="283.0" />
-                  <point x="701.2005442176871" y="283.0" />
-                  <point x="-132.08333333333337" y="81.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.3665389527458493" x="-60.2229965156796" y="644.773519163763" />
-              <SelectedNodes>
-                <node>maze.BlueMazeGameCreator</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -320,15 +57,18 @@
       <file leaf-file-name="RedMazeGameCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maze/RedMazeGameCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -337,7 +77,7 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maze/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="375">
               <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
               <folding>
                 <element signature="e#2099#2100#0" expanded="true" />
@@ -363,8 +103,8 @@
       <file leaf-file-name="GreenRoom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maze/GreenRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
@@ -375,11 +115,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BrownDoor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maze/BrownDoor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BlueWall.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/maze/BlueWall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="90">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
@@ -403,6 +153,9 @@
     <findStrings>
       <find>MazeGameCreator</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -439,6 +192,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -454,8 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -478,8 +232,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +264,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="maze.MazeGameCreator" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="blue large.maze" />
+      <option name="PROGRAM_PARAMETERS" value="    " />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -609,12 +363,14 @@
       <option name="presentableId" value="Default" />
       <updated>1540662413969</updated>
       <workItem from="1540662417138" duration="42000" />
-      <workItem from="1540662477228" duration="7581000" />
+      <workItem from="1540662477228" duration="8400000" />
+      <workItem from="1540673832843" duration="984000" />
+      <workItem from="1540675063223" duration="6168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7623000" />
+    <option name="totallyTimeSpent" value="15594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -622,26 +378,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -649,36 +405,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -691,52 +417,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/small.maze">
+    <entry file="file://$PROJECT_DIR$/src/maze/MazeGameCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/Door.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/BrownDoor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#6908#6909#0" expanded="true" />
+            <element signature="e#6941#6942#0" expanded="true" />
+            <element signature="e#6993#6994#0" expanded="true" />
+            <element signature="e#7038#7039#0" expanded="true" />
+            <element signature="e#7077#7078#0" expanded="true" />
+            <element signature="e#7116#7117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/BlueWall.java">
+    <entry file="file://$PROJECT_DIR$/src/maze/RedRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedWall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/BlueMazeGameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedMazeGameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -761,6 +525,177 @@
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/BlueWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/MazeGameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6908#6909#0" expanded="true" />
+            <element signature="e#6941#6942#0" expanded="true" />
+            <element signature="e#6993#6994#0" expanded="true" />
+            <element signature="e#7038#7039#0" expanded="true" />
+            <element signature="e#7077#7078#0" expanded="true" />
+            <element signature="e#7116#7117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/BlueMazeGameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedMazeGameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/GreenRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/BlueWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small.maze">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -991,7 +926,7 @@
               <point x="-132.08333333333337" y="81.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.3665389527458493" x="-60.2229965156796" y="644.773519163763" />
+          <settings layout="Hierarchic Group" zoom="0.3665389527458493" x="-60.0" y="645.0" />
           <SelectedNodes>
             <node>maze.BlueMazeGameCreator</node>
           </SelectedNodes>
@@ -1004,26 +939,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/Room.java">
+    <entry file="file://$PROJECT_DIR$/src/maze/BrownDoor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="e#2099#2100#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/RedRoom.java">
+    <entry file="file://$PROJECT_DIR$/src/maze/BlueWall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,40 +973,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/RedMazeGameCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/maze/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="375">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maze/BlueMazeGameCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="144">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/RedMazeGameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maze/GreenRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maze/MazeGameCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="661">
+          <caret line="244" column="50" lean-forward="false" selection-start-line="244" selection-start-column="50" selection-end-line="244" selection-end-column="50" />
           <folding>
             <element signature="e#6908#6909#0" expanded="true" />
             <element signature="e#6941#6942#0" expanded="true" />

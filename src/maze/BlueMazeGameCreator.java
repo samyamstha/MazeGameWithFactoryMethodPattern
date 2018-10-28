@@ -1,10 +1,24 @@
 package maze;
 
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class BlueMazeGameCreator extends MazeGameCreator {
 
-    public  Maze createMaze(){
-        Maze amaze = new Maze();
-        return amaze;
+    @Override
+    public Maze createMaze() {
+        return super.createMaze();
+    }
+
+    @Override
+    public Maze loadMaze(String path) throws FileNotFoundException {
+        return super.loadMaze(path);
+    }
+
+    @Override
+    public void decideCase(ArrayList<HashMap> roomList, int i, ArrayList<Door> doorObjs, ArrayList<Room> roomObjs, String direction, Direction dir) {
+        super.decideCase(roomList, i, doorObjs, roomObjs, direction, dir);
     }
 
     public  Wall makeWall(){
