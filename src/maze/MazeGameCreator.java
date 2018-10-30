@@ -66,13 +66,12 @@ public class MazeGameCreator {
         return maze;
     }
 
-    public Maze loadMaze(final String path) throws FileNotFoundException {
+    public Maze makeMaze(final String path) throws FileNotFoundException {
         Maze maze = new Maze();
 
 
         HashMap<String, String> roomMap = null;
         HashMap<String, String> doorMap = null;
-        System.out.println("Please load a maze from the file!");
 
         ArrayList<HashMap> roomList = new ArrayList<>();
         ArrayList<HashMap> doorList = new ArrayList<>();
@@ -125,7 +124,7 @@ public class MazeGameCreator {
 
         //Instantiate Room objects and add them to the maze, and also to the ArrayList of the Room objects
         for (HashMap<String, String> rmap : roomList) {
-            System.out.println(rmap.get("number"));
+            //System.out.println(rmap.get("number"));
             int roomNum = Integer.parseInt(rmap.get("number"));
             Room room = makeRoom(roomNum);
             roomObjs.add(room);
@@ -204,30 +203,39 @@ public class MazeGameCreator {
         MazeGameCreator mgc = new MazeGameCreator();
         String filePath;
         String mazeColor;
+
+
         //check if the argument has been passed to the program
-        //call loadMaze() if argument is passed
+        //call makeMaze() if argument is passed
         //else call createMaze()
+
+        //if only one argument is passed and that is a color or maze type
         if (args.length == 1) {
+
+            //check for red
             if (args[0].equals("red")){
                 mgc = new RedMazeGameCreator();
                 maze = mgc.createMaze();
             }
+
+            //check for blue
             else if (args[0].equals("blue")){
                 mgc = new BlueMazeGameCreator();
                 maze = mgc.createMaze();
-            }
+
+            }  //check for which maze type and create the basic maze
             else{
                 filePath = args[0];
                 System.out.println("The argument passed is " + filePath);
                 try{
-                    maze = mgc.loadMaze(filePath);
+                    maze = mgc.makeMaze(filePath);
                 }catch (Exception e){
                     System.out.println("Please provide a valid file.\nExiting the system.");
                     System.exit(0);
                 }
 
             }
-
+            //if two arguments then check for which color and what maze type it is
         } else if(args.length == 2){
 
             mazeColor = args[0];
@@ -238,16 +246,31 @@ public class MazeGameCreator {
             switch  (mazeColor){
                 case "red":
                     mgc = new RedMazeGameCreator();
-                    maze = mgc.loadMaze(filePath);
+                    try {
+                        maze = mgc.makeMaze(filePath);
+                    } catch (FileNotFoundException e) {
+                        System.out.println("Invalid File.\nExiting the program");
+                        System.exit(0);
+                    }
                     break;
                 case "blue":
                     mgc = new BlueMazeGameCreator();
-                    maze = mgc.loadMaze(filePath);
+                    try {
+                        maze = mgc.makeMaze(filePath);
+                    } catch (FileNotFoundException e) {
+                        System.out.println("Invalid File.\nExiting the program");
+                        System.exit(0);
+                    }
                     break;
+                    default:
+                        System.out.println("Invalid File.\nExiting the program");
+                        System.exit(0);
+
             }
 
 
         }
+        //else if only the maze type is provided then load the Basic Maze with the desired maze type
         else {
             maze = mgc.createMaze();
         }

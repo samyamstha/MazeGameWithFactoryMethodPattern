@@ -12,8 +12,8 @@ public class RedMazeGameCreator  extends MazeGameCreator{
     }
 
     @Override
-    public Maze loadMaze(String path) throws FileNotFoundException {
-        return super.loadMaze(path);
+    public Maze makeMaze(String path) throws FileNotFoundException {
+        return super.makeMaze(path);
     }
 
     @Override
